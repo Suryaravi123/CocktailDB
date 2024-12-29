@@ -1,2 +1,0 @@
-# CocktailDB
-Panaseer task
