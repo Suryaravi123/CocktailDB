@@ -1,6 +1,0 @@
-Data Ingestion: The script queries an API to get all cocktails starting with each letter of the alphabet. This ensures comprehensive coverage of available cocktail data.
-Data Transformation: The script normalizes the data into two tables:
-Drinks: Contains information like the drink's name, category, instructions, etc.
-Ingredients: Contains ingredients for each drink along with their measures. This normalization reduces redundancy and ensures minimal null values.
-Edge Case Handling: The code checks for mismatched ingredient-counts and skips those drinks to avoid inconsistent data.
-SQL Dump: The cleaned and transformed data is dumped into a SQLite database (CocktailDB). This enables future querying or analysis without needing to re-fetch the data.
